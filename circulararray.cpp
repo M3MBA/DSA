@@ -19,6 +19,6 @@ cout<<endl;
 
 int main()
 {
-  int arr[] = {1,2,3,4,5} , n = sizeof(arr)/sizeof(arr[0]);
+  int arr[] = {1,2,3,2,4,5} , n = sizeof(arr)/sizeof(arr[0]);
   rotate(arr,n);
 }
