@@ -2,11 +2,16 @@
 using namespace std;
 int main()
 {
-  int a,mul=0,n;
+  int a,b;
   cin>>a;
-  for(int i=0;i<n;i++)
+  for(int j=0;j<a;j++)
   {
-    mul = i * (1+i);
+      cin>>b;
+  long mul=1;
+  for(int i=1;i<=b;i++)
+  {
+    mul = mul * i;
   }
-  cout<<mul;
+  cout<<mul<<endl;
+  }
 }
